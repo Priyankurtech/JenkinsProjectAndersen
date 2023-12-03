@@ -1,9 +1,9 @@
-package com.orkhan.web;
+package com.ankur.web;
 
 
 
-import com.orkhan.dao.UserDAO;
-import com.orkhan.model.User;
+import com.ankur.dao.UserDAO;
+import com.ankur.model.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

@@ -1,13 +1,13 @@
-package com.orkhan.dao;
+package com.ankur.dao;
 
 
-
-import com.orkhan.model.User;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import com.ankur.model.User;
 
 
 
@@ -19,9 +19,9 @@ import java.util.List;
  *
  */
 public class UserDAO {
-    private String jdbcURL = "jdbc:mysql://192.168.0.110:3306/orkhan?useSSL=false";
-    private String jdbcUsername = "orkhan";
-    private String jdbcPassword = "1234Orkhan!";
+    private String jdbcURL = "jdbc:mysql://192.168.1.118:3306/ankur?useSSL=false";
+    private String jdbcUsername = "ankur";
+    private String jdbcPassword = "Ankur1234!";
 
     private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, email, country) VALUES " +
             " (?, ?, ?);";
